@@ -1,0 +1,25 @@
+{
+  "name": "pi-clock-2",
+  "version": "1.0.0",
+  "description": "Second iteration of the clock+weather web based app for Raspberry Pi",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevorgud/pi-clock-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trevorgud/pi-clock-2/issues"
+  },
+  "homepage": "https://github.com/trevorgud/pi-clock-2#readme",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
